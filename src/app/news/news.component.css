@@ -1,0 +1,42 @@
+._container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+._card {
+    width: 25%;
+    margin: 0.5rem;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    border: #a3a3a3 1px solid;
+}
+._text {
+    color: #6f6f6f;
+}
+
+h3 {
+    margin: 0.5rem 0 0 0;
+    color: #248bd3;
+}
+
+p {
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 740px) {
+    ._card {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 560px) {
+    ._card {
+        width: 80%;
+    }
+}

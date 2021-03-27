@@ -12,7 +12,7 @@ import { NewTestimonialsComponent } from './new-testimonials/new-testimonials.co
 import { NewGallaryComponent } from './new-gallary/new-gallary.component';
 import { NewNewsComponent } from './new-news/new-news.component';
 import { NewNews1Component } from './new-news1/new-news1.component';
-// import { NewContactUsComponent } from './new-contact-us/new-contact-us.component';
+import { NewContactUsComponent } from './new-contact-us/new-contact-us.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { NewNews1Component } from './new-news1/new-news1.component';
     NewGallaryComponent,
     NewNewsComponent,
     NewNews1Component,
-    // NewContactUsComponent
+    NewContactUsComponent
   ],
   imports: [
     BrowserModule

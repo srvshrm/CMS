@@ -1,0 +1,85 @@
+.container {
+    padding: 2rem;
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 500;
+    border-bottom: 1px solid #9f9f9f;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.circle {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #999;
+    background-color: #999;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.list {
+    display: block;
+}
+
+.list p {
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.note {
+    margin-top: 5rem;
+}
+
+.note p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 650px) {
+    .content {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .circle {
+        height: 6px;
+        width: 6px;
+    }
+
+    .list p {
+        font-size: 15px;
+    }
+    
+    .note p {
+        font-size: 14px;
+    }
+}
